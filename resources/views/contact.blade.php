@@ -7,5 +7,13 @@
 </head>
 <body>
     <h1> Contact Page </h1>
+    <h2> 
+        "The real joy of life is in giving. It’s not about receiving; it's about sharing."
+    </h2>
+    <p> 
+        twitter : <br>
+        instagram : <br>
+        youtube : <br>
+    </p>
 </body>
 </html>
