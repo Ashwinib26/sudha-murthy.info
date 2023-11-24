@@ -23,5 +23,11 @@
     University). She completed her post-graduation in 
     Computer Science from the Indian Institute of Science.
     </p>
+    <br><br>
+    Spouse	- N. R. Narayana Murty
+    <br><br>
+    Children - Akshata Murty and Rohan Murty
+    <br><br>
+    Relatives - Rishi Sunak (son-in-law)
 </body>
 </html>
