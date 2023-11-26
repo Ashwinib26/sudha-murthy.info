@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <h1> Home Page </h1>
-    <img url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF25RFwBy4PNL55Z5z51L1jTsoAUI1yQNPWWsPeQDa88FjrWT91h7M4te8GUYUCDr3FyY&usqp=CAU">
+    <header>
+        
+    </header>
+    <a href="/"> HOME </a><br><br>
     <a href="/about"> ABOUT </a><br><br>
     <a href="/history"> HISTORY </a><br><br>
     <a href="/achievements"> ACHIEVEMENTS </a><br><br>
