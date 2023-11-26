@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <h1> Contact Page </h1>
-    <h2> 
-        "The real joy of life is in giving. It’s not about receiving; it's about sharing."
-    </h2>
-    <p> 
-        twitter : <br>
-        instagram : <br>
-        youtube : <br>
-    </p>
+    @extends('layout.app')
+    @section('appContents')
+        <h1> Contact Page </h1>
+        <h2> 
+            "The real joy of life is in giving. It’s not about receiving; it's about sharing."
+        </h2>
+        <p> 
+            twitter : <br>
+            instagram : <br>
+            youtube : <br>
+        </p>
+    @endsection
 </body>
 </html>
