@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievements</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <style>
+        body
+        {
+            font-family: Arial, sans-serif;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIcCO76YIiOK1BDZ8e7nAI0Q317i2ZnLiKg&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .p2{
+            margin: 20px;
+            padding: 20px;
+            font-size:x-large;
+            color:white;
+        }
+        .p1{
+            margin: 20px;
+            padding: 20px;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            color:white;
+        }
+    </style>
 </head>
 <body>
     @extends('layout.app')
     @section('appContents')
-        
-        <p>
+        <br>
+        <p class="p2"><b> Sudha Murthy possesses the following attributes within her personality : </b></p>
+        <p class="p1">
         1- Gold Medal from the Indian Institute of Engineers, India for having secured the 1st Rank in MTech of all the branches of Engineering. 
 
         <br>2- Gold Medal from the Chief Minister of Karnataka Sri Devaraj Urs, for securing the highest marks in B.E. of all the Universities of Engineering in Karnataka. 
@@ -49,15 +72,7 @@
         <br>19- She won India's fourth highest civilian award Padma Shri.
         </p>
 
-        <p>
-            Sudha Murthy became the first female engineer hired at India's largest auto manufacturer TATA Engineering and Locomotive Company (TELCO).
-            In 1996, she started Infosys Foundation and to date has been the Trustee of Infosys Foundation and a Visiting Professor at the PG Center of Bangalore University. She also taught at Christ University.
-            Sudha Murty has written and published many books 
-            which include novels, non-fiction, travelogues, 
-            technical books, and memoirs. Her books have been 
-            translated into all major Indian languages. She is 
-            also a columnist for English and Kannada newspapers.
-        </p>
+        
     @endsection
 </body>
 </html>
