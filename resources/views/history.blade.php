@@ -9,7 +9,7 @@
 <body>
     @extends('layout.app')
     @section('appContents')
-        <h1> History Page </h1>
+        
         <p>
             Sudha Murthy began her professional career in computer 
             science and engineering. She is a member of the public 

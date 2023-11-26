@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <style>
+        body
+        {
+            font-family: Arial, sans-serif;
+            background-color: rgb(171, 161, 171);
+        }
+        .p{
+            margin: 20px;
+            padding: 20px;
+        }
+        .p1{
+            margin: 20px;
+            padding: 20px;
+            font-family:  sans-serif;
+        }
+    </style>
 </head>
 <body>
     @extends('layout.app')
     @section('appContents')
-        <h1> About Page </h1>
-        <p><i>
-        "The beauty of a person lies in simplicity and confidence so leave life for yourself and not for others."
+        
+        <p class="p"><i><b>
+        "The beauty of a person lies in simplicity and confidence so leave life for yourself and not for others."</b>
         <br><br>
         - Sudha Murthy</i>
         </p>
-        <p>
+        <p class="p1">
         Sudha Murthy (née Kulkarni) is an Indian engineering 
         teacher who excels as an author in Kannada, Marathi 
         and English language. She is mainly known for her 
@@ -30,13 +46,15 @@
         Technology (presently known as KLE Technological 
         University). She completed her post-graduation in 
         Computer Science from the Indian Institute of Science.
-        </p>
-        <br><br>
+        </p><b>
+   
+        <p class="p">
         Spouse	- N. R. Narayana Murthy
         <br><br>
         Children - Akshata Murthy and Rohan Murthy
         <br><br>
-        Relatives - Rishi Sunak (son-in-law)
+        Relatives - Rishi Sunak (son-in-law)</b>
+    </p>
     @endsection
 </body>
 </html>

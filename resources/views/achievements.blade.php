@@ -9,7 +9,7 @@
 <body>
     @extends('layout.app')
     @section('appContents')
-        <h1> Achievements Page </h1>
+        
         <p>
         1- Gold Medal from the Indian Institute of Engineers, India for having secured the 1st Rank in MTech of all the branches of Engineering. 
 
