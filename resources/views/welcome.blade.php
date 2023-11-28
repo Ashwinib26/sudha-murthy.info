@@ -8,7 +8,7 @@
     <style>
         body
         {
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
             /* margin: 30px;
             padding: 30px; */
             background-image: url("https://i.pinimg.com/736x/09/a8/26/09a82659edb43e80a7d5b7889251411c.jpg");

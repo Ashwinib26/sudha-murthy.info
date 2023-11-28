@@ -32,7 +32,7 @@
     @extends('layout.app')
     @section('appContents')
         <br>
-        <p class="p2"><b> Sudha Murthy possesses the following attributes within her personality : </b></p>
+        <p class="p2"><b> Sudha Murthy possesses the following attributes with her personality : </b></p>
         <p class="p1">
         1- Gold Medal from the Indian Institute of Engineers, India for having secured the 1st Rank in MTech of all the branches of Engineering. 
 
