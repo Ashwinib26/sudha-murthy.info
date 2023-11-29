@@ -13,7 +13,7 @@
         <main class="w-full h-200">
             @yield('appContents')
         </main>
-        <!-- @include('layout.footer') -->
+        @include('layout.footer')
     </div>
 </body>
 </html>
