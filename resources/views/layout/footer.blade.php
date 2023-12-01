@@ -24,7 +24,7 @@
     <!-- Your website content goes here -->
 
     <footer>
-        <p> &copy; 2023 Ashwini Bisen. All rights reserved.</p>
+        <p> &copy; 2023 Sudha Murthy. All rights reserved.</p>
     </footer>
 
 </body>
